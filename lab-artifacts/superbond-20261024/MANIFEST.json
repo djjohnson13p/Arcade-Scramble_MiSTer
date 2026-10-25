@@ -1,5 +1,5 @@
 {
-  "utc": "2026-10-25T01:47:02.258286+00:00",
+  "utc": "2026-10-25T01:51:27.498708+00:00",
   "status": "HARDWARE_ACCEPTANCE_IN_PROGRESS",
   "issue_complete": false,
   "branch": "lab/superbond-feasibility",
@@ -52,8 +52,15 @@
     }
   },
   "remaining": [
-    "Normal-life progression/core Reset/P2 combined actions/post-game Demo On",
-    "FreePlay no-coin restart",
-    "Scramble and Super Cobra hardware regressions"
-  ]
+    "Pending user normal2P special/combined actions, next-room progression, core Reset/restart and post-game DemoOn sound",
+    "FreePlay restart",
+    "Scramble and SuperCobra regressions"
+  ],
+  "hardware_evidence": {
+    "archive": "hardware-evidence-through-dips.zip",
+    "archive_sha256": "04aa03e967c74a919b924d6ddffe6de2b732bce02ab46611469f82d81f27efeb",
+    "archive_bytes": 545516,
+    "status": "HARDWARE_ACCEPTANCE_PENDING",
+    "issue_complete": false
+  }
 }

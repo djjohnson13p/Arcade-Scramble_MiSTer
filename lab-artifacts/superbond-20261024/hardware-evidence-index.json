@@ -1,0 +1,479 @@
+{
+  "utc": "2026-10-25T01:51:12.298939+00:00",
+  "status": "HARDWARE_ACCEPTANCE_PENDING",
+  "issue_complete": false,
+  "archive": "hardware-evidence-through-dips.zip",
+  "archive_sha256": "04aa03e967c74a919b924d6ddffe6de2b732bce02ab46611469f82d81f27efeb",
+  "archive_bytes": 545516,
+  "files": {
+    "DEVICE-READY.json": {
+      "bytes": 6858,
+      "sha256": "97ce535e7120a50e8554e33b9cb6893350fffa187a1ed309fa23d3eb384dc8ad"
+    },
+    "HARDWARE-PROGRESS.json": {
+      "bytes": 3230,
+      "sha256": "e687da7788577e3edb81eae459695615025cfe208c7a9c2c13c436e7bc01f54b"
+    },
+    "PHASE-CONTROL-V2.md": {
+      "bytes": 1814,
+      "sha256": "935204674e4bf6a8453aede50c4f9524f71065fd8aea4f1f442be6107ee7dc8f"
+    },
+    "PHASE-ROOT-REVIEW-V2.json": {
+      "bytes": 930,
+      "sha256": "180fe297fe8f55b111b16a5363ab72f3eefe6155ba0128b182046a9813eef862"
+    },
+    "SB45F001.mra": {
+      "bytes": 1940,
+      "sha256": "ea17701a241e3d9d5341952f17a777f9b14f4d41e526ccb77ea954bd948de41f"
+    },
+    "SB45F001_input_4711_0815_v3.map": {
+      "bytes": 128,
+      "sha256": "33c885e0620ca9064816c09927f57811e4a797314100e046fab140d9c1205efd"
+    },
+    "SB45F002.mra": {
+      "bytes": 1945,
+      "sha256": "20124f8dae18e77ea38e77f0d107bb3d6ff31e8e8ef6fcfc1dd8ced13f1603aa"
+    },
+    "SB45F002_input_4711_0815_v3.map": {
+      "bytes": 128,
+      "sha256": "33c885e0620ca9064816c09927f57811e4a797314100e046fab140d9c1205efd"
+    },
+    "SB45F003.mra": {
+      "bytes": 1940,
+      "sha256": "bf9e7e782384259de1d1e051896f21af82e905d697db59dc73c6a28d600819c3"
+    },
+    "SB45F003_input_4711_0815_v3.map": {
+      "bytes": 128,
+      "sha256": "33c885e0620ca9064816c09927f57811e4a797314100e046fab140d9c1205efd"
+    },
+    "SB45F004.mra": {
+      "bytes": 1941,
+      "sha256": "eb24ebf510037d5def6dce41c89094ab81c5bbd41094a1bf4bd8732f35a7d7b0"
+    },
+    "SB45F004_input_4711_0815_v3.map": {
+      "bytes": 128,
+      "sha256": "33c885e0620ca9064816c09927f57811e4a797314100e046fab140d9c1205efd"
+    },
+    "SB45F005.mra": {
+      "bytes": 1942,
+      "sha256": "7de828eb31007a9570c50e5f2cd8bc280f178a8cf39e151f0d001e6e85ddec0f"
+    },
+    "SB45F005_input_4711_0815_v3.map": {
+      "bytes": 128,
+      "sha256": "33c885e0620ca9064816c09927f57811e4a797314100e046fab140d9c1205efd"
+    },
+    "SB45R001.mra": {
+      "bytes": 2646,
+      "sha256": "ee65ce6e7681eb30b3bbd7214cd75231da9959255cbd37e0c41f7fa36ef8f0cc"
+    },
+    "SB45R001_input_4711_0815_v3.map": {
+      "bytes": 128,
+      "sha256": "33c885e0620ca9064816c09927f57811e4a797314100e046fab140d9c1205efd"
+    },
+    "SB45R002.mra": {
+      "bytes": 2340,
+      "sha256": "c4a0956bdd4fa314e09832537f724f8ad082450e94d38c0e58179fb55bf542ea"
+    },
+    "SB45R002_input_4711_0815_v3.map": {
+      "bytes": 128,
+      "sha256": "33c885e0620ca9064816c09927f57811e4a797314100e046fab140d9c1205efd"
+    },
+    "SESSION-CONTROL.md": {
+      "bytes": 1887,
+      "sha256": "1d827f3604714d79bea5c3f0217937918405260baaf9b85d52267601004206c0"
+    },
+    "TWO-PLAYER-REVIEW.json": {
+      "bytes": 1529,
+      "sha256": "cd0e91bf9d6ea09c59e9028f254cc2bd5de2e17ea6633a9fbf3965738a247997"
+    },
+    "phase-journals/083ed6913a5bad066ba6f87b1346ae76431eac1d7e958d696a8cf0ba626c0ecb.json": {
+      "bytes": 45927,
+      "sha256": "b2c63cc2b16d95727b9de8ac8ac104f20b05c7cd19a280dbbaf858996812cd1f"
+    },
+    "phase-journals/083ed6913a5bad066ba6f87b1346ae76431eac1d7e958d696a8cf0ba626c0ecb/down-left.png": {
+      "bytes": 5282,
+      "sha256": "5585216c1a4d62790a64acc6a24d9998acc2e39f400fef3e88bb6bf016c7d207"
+    },
+    "phase-journals/083ed6913a5bad066ba6f87b1346ae76431eac1d7e958d696a8cf0ba626c0ecb/down-right.png": {
+      "bytes": 5013,
+      "sha256": "7cd91eb185c3deca0db13f0272e359b23d53d26b94d91c0d66eb82c40a4f7a94"
+    },
+    "phase-journals/083ed6913a5bad066ba6f87b1346ae76431eac1d7e958d696a8cf0ba626c0ecb/down.png": {
+      "bytes": 5306,
+      "sha256": "f4adf889cdabe27e18d641e5575bc33a7f4cf8b95d31b81a6cfd5327b85e2ad1"
+    },
+    "phase-journals/083ed6913a5bad066ba6f87b1346ae76431eac1d7e958d696a8cf0ba626c0ecb/up-left.png": {
+      "bytes": 5295,
+      "sha256": "471b5fa9c748c78418d16878346824a487c53e43b13ba6413b7357e780c50184"
+    },
+    "phase-journals/083ed6913a5bad066ba6f87b1346ae76431eac1d7e958d696a8cf0ba626c0ecb/up-right.png": {
+      "bytes": 5348,
+      "sha256": "e16baa2479e479e57f960b9fba3dff3a6fb59492125e5fd709185735f7caa037"
+    },
+    "phase-journals/083ed6913a5bad066ba6f87b1346ae76431eac1d7e958d696a8cf0ba626c0ecb/up.png": {
+      "bytes": 5229,
+      "sha256": "1ccb367be7b7c5ffdd6f352e64ecdd9ff7300b2736a5ae57b3cb31232c2e0aba"
+    },
+    "phase-journals/0b7f4c5c3b780a8dd3d7bb2282d524f74a4ed48af401424436c0e13b38286f0a.json": {
+      "bytes": 38351,
+      "sha256": "eb171757f567eafbacdffdf5a002279f11aad089640ce38e606ee8b0f599ae28"
+    },
+    "phase-journals/0b7f4c5c3b780a8dd3d7bb2282d524f74a4ed48af401424436c0e13b38286f0a/room-state.png": {
+      "bytes": 6255,
+      "sha256": "ce6e39f0433e8c2245918687dd78d1d25f40ce8dac789511e39f2c69532957de"
+    },
+    "phase-journals/1a6e5983fadcbc958ebdbf056e3225c1facf80a78b630cfb51950950008ea9ee.json": {
+      "bytes": 43380,
+      "sha256": "7b3a7abcb85419162c69284a6fdd2a738d9c01a45afa3402a109155def69aa7a"
+    },
+    "phase-journals/1a6e5983fadcbc958ebdbf056e3225c1facf80a78b630cfb51950950008ea9ee/after-coin.png": {
+      "bytes": 9281,
+      "sha256": "91c214c286a2825eed0de68fb3a0b0cfd204401471822d1f1e26e50c83c3ba5e"
+    },
+    "phase-journals/1a6e5983fadcbc958ebdbf056e3225c1facf80a78b630cfb51950950008ea9ee/after-hold-attract.png": {
+      "bytes": 4491,
+      "sha256": "a8ed70325410d888e985ce0e783f9a03a553c46ffa267fdfc55cfa99741a38c0"
+    },
+    "phase-journals/1a6e5983fadcbc958ebdbf056e3225c1facf80a78b630cfb51950950008ea9ee/after-start1.png": {
+      "bytes": 4294,
+      "sha256": "1bbadf0f64cdd1bf9f8e586310846fef2a130a30e7578955f4310b2b18cefb60"
+    },
+    "phase-journals/1a6e5983fadcbc958ebdbf056e3225c1facf80a78b630cfb51950950008ea9ee/after-zap-attract.png": {
+      "bytes": 4779,
+      "sha256": "88b661e9766eca33859a7c17a712835630980f247d42f8a903d69ce45d152bc4"
+    },
+    "phase-journals/45ecb07d9439412b32156d651ba8b29b82d1978b600ae2eaa41f077f4b006ce1.json": {
+      "bytes": 39035,
+      "sha256": "88d29b3c0e93a210f6ff4ee7e991fd225d8847348398c15765c022afae4b07e3"
+    },
+    "phase-journals/45ecb07d9439412b32156d651ba8b29b82d1978b600ae2eaa41f077f4b006ce1/candidate-boot.png": {
+      "bytes": 3663,
+      "sha256": "e3f42ef9f7b1ad280bb3f872b64d270966d96051aa306711c15a4ecd3db4f54c"
+    },
+    "phase-journals/51353cc362e83f516221eac9667e2b7307ecbaf38e47e05ff2f504ee5f919391.json": {
+      "bytes": 43313,
+      "sha256": "0e54b8ca5b4ab50480667acd18cfa4dcdcdf2e08e19b40a5cc8d84af34a147af"
+    },
+    "phase-journals/51353cc362e83f516221eac9667e2b7307ecbaf38e47e05ff2f504ee5f919391/after-start2.png": {
+      "bytes": 9482,
+      "sha256": "f5fc1ce17e31242a6afb1f88254c114eee6c97aaf15fcb50b6f4dc47bf5bba28"
+    },
+    "phase-journals/51353cc362e83f516221eac9667e2b7307ecbaf38e47e05ff2f504ee5f919391/boot.png": {
+      "bytes": 3911,
+      "sha256": "7eb8228bbb723e5d9da3f71b74110fea783e6e79ae5353ca33ab06dbc130ae59"
+    },
+    "phase-journals/51353cc362e83f516221eac9667e2b7307ecbaf38e47e05ff2f504ee5f919391/credits-a.png": {
+      "bytes": 3534,
+      "sha256": "6d3ec934741cb6bef29821a8e390701a75f4cb25844da6155a43d31cac091e87"
+    },
+    "phase-journals/51353cc362e83f516221eac9667e2b7307ecbaf38e47e05ff2f504ee5f919391/credits-b.png": {
+      "bytes": 5983,
+      "sha256": "6270856bae3f522834c090664fcefe8a36a54e81823b8198c3a36bf0dfe4efb4"
+    },
+    "phase-journals/51353cc362e83f516221eac9667e2b7307ecbaf38e47e05ff2f504ee5f919391/credits-c.png": {
+      "bytes": 9416,
+      "sha256": "5387d43b45b000df101ccf4076417d105564bff3e58a183e2721fb4acc1e5e88"
+    },
+    "phase-journals/6375e05df59d3ba0503aa2f7f93addaa109cd2fd4208afbeee193098d26eb579.json": {
+      "bytes": 1329,
+      "sha256": "f54f911ca82f3d9875ed7353666f314a234a20144e718e80ea6cf27bd12f6c8b"
+    },
+    "phase-journals/6615113d3c97b2b21b7df32af73d4642156974369212f77e2ae7a423ee59f6c4.json": {
+      "bytes": 38354,
+      "sha256": "1eca7bf01025661b2ccc3127b80fcabaf487a2505bad4a46fcddfe984915ad95"
+    },
+    "phase-journals/6615113d3c97b2b21b7df32af73d4642156974369212f77e2ae7a423ee59f6c4/before-movement.png": {
+      "bytes": 5526,
+      "sha256": "58ea08f2d868d4d2d9f91147313bba80a3a91cd43d72670e8f25480910ac2d9f"
+    },
+    "phase-journals/94dd2127d7c1a7589d6a99c8fccc3460acb4acb4996547962ac7fdf2a92129a9.json": {
+      "bytes": 42316,
+      "sha256": "12ce01c9de213f1a0a854b19c3b4801d475a6f9f715645ae326ccc4ccd3fe298"
+    },
+    "phase-journals/94dd2127d7c1a7589d6a99c8fccc3460acb4acb4996547962ac7fdf2a92129a9/after-start1.png": {
+      "bytes": 4294,
+      "sha256": "1bbadf0f64cdd1bf9f8e586310846fef2a130a30e7578955f4310b2b18cefb60"
+    },
+    "phase-journals/94dd2127d7c1a7589d6a99c8fccc3460acb4acb4996547962ac7fdf2a92129a9/boot-invulnerable.png": {
+      "bytes": 3805,
+      "sha256": "263be7023a750ef8232e39788020958ea2c8a2300485ee5452329de45ba096f3"
+    },
+    "phase-journals/94dd2127d7c1a7589d6a99c8fccc3460acb4acb4996547962ac7fdf2a92129a9/one-coin-two-credits.png": {
+      "bytes": 3732,
+      "sha256": "38a98386e7a5ca9264f89801bd4d226b750b5b706cf86a1a9cbf5bb0b0163430"
+    },
+    "phase-journals/9d532e6e51bef978a5179197afe4155be4d1c0978e2e81b529f07c8f4abde192.json": {
+      "bytes": 41596,
+      "sha256": "a310d7ac90955fedc9f6859002d40f49b78d0a9dc77014bd719f3c44befef3cc"
+    },
+    "phase-journals/9d532e6e51bef978a5179197afe4155be4d1c0978e2e81b529f07c8f4abde192/after-left.png": {
+      "bytes": 5237,
+      "sha256": "6ec65ad7d92424fa455b9ac8a7566bdbcc2c107c5474ac5ac441ac1e811bb3cc"
+    },
+    "phase-journals/9d532e6e51bef978a5179197afe4155be4d1c0978e2e81b529f07c8f4abde192/after-right.png": {
+      "bytes": 5395,
+      "sha256": "d60346d370137b0c1811e0255aaaf5bf4cbaef994b173ca9f15b0d978f57d0cf"
+    },
+    "phase-journals/9d532e6e51bef978a5179197afe4155be4d1c0978e2e81b529f07c8f4abde192/before.png": {
+      "bytes": 5284,
+      "sha256": "baab9ef1e49794eb9bbff0f74262c5ace23474d341aaf3059189529062a8032c"
+    },
+    "phase-journals/b932de846ed8c4fa21579b9e84df45433d4616cc6ccb2cc961473f3a01f12a27.json": {
+      "bytes": 40062,
+      "sha256": "c49e382ec5d7b6e40638b6a2a8a8c0c2e2f2c1597cc9dfb078f8ed6f944bfc2e"
+    },
+    "phase-journals/b932de846ed8c4fa21579b9e84df45433d4616cc6ccb2cc961473f3a01f12a27/after-start2-long.png": {
+      "bytes": 6340,
+      "sha256": "182b99f6fee97a42da7c95def9f595cde96b9bdc70a5dc2fafe408b484c8a8d7"
+    },
+    "phase-journals/f69ceedc52b83a7d8fbc90a594a8232f7f929069a5583803f493bdc75f091877.json": {
+      "bytes": 42789,
+      "sha256": "251a0e42950034918e15c6b6ad27870df9a2825c9d9732fb72c5f5bb2a3d573e"
+    },
+    "phase-journals/f69ceedc52b83a7d8fbc90a594a8232f7f929069a5583803f493bdc75f091877/after-hold.png": {
+      "bytes": 5461,
+      "sha256": "378344589aca866414e9c403d46a86afee1bfec1f80be537576ed7a13667ef93"
+    },
+    "phase-journals/f69ceedc52b83a7d8fbc90a594a8232f7f929069a5583803f493bdc75f091877/after-resumed-running.png": {
+      "bytes": 5542,
+      "sha256": "7c60fac918a960370f217ac6fc9c7b7232518a4e45d528f3c5cb57cbbf57dfaa"
+    },
+    "phase-journals/f69ceedc52b83a7d8fbc90a594a8232f7f929069a5583803f493bdc75f091877/after-running.png": {
+      "bytes": 5454,
+      "sha256": "75a054f0624161d622b1389a372c210f6a34c7e7f6a44db2662464451a5dd09f"
+    },
+    "phase-journals/f69ceedc52b83a7d8fbc90a594a8232f7f929069a5583803f493bdc75f091877/before.png": {
+      "bytes": 5280,
+      "sha256": "508161d160338c9530f43ce92c86223b1cc377ea0cffaa972603476870bd2ff1"
+    },
+    "phase_control_v2.py": {
+      "bytes": 18410,
+      "sha256": "419ac74c5546bcd24d5da1168b7034bd108dc6ea588668db5e13e4a30c9195c3"
+    },
+    "rom-life-audio-evidence-r1.json": {
+      "bytes": 4039,
+      "sha256": "35e590dbd02ae168038cee547b3851b528784b0976dadc661053a3de7b7d38b9"
+    },
+    "rom-life-hud-intro-clarification-r1.json": {
+      "bytes": 1539,
+      "sha256": "10c8d20276f5db9c7b6da429be5c8a4998742fc5fd0b9e4421d49b00380ff102"
+    },
+    "rom-two-player-evidence-r1.json": {
+      "bytes": 3183,
+      "sha256": "c72fa04fa0da45999597ec1dd8634e6ed491d257e1a43e8aeced19a6780ebedd"
+    },
+    "session-journals/final-acceptance-r1.json": {
+      "bytes": 2013900,
+      "sha256": "c5d2718fa5ab1dd415607d52408fae308e8dd3597721c8cadb974885fc34b7d6"
+    },
+    "session-journals/final-acceptance-r1/demo-off-end-state.png": {
+      "bytes": 5777,
+      "sha256": "1bd0fc70a40ab97576260f7428c620fbcfd295838bc3f1aef26924c199325a08"
+    },
+    "session-journals/final-acceptance-r1/demo-off-game-start.png": {
+      "bytes": 4357,
+      "sha256": "9b8a3b6df3de6a527d41fd310025daf6e67eaba603f249e8ea4fdd376a8e7b4d"
+    },
+    "session-journals/final-acceptance-r1/demo-off-post-game.png": {
+      "bytes": 5927,
+      "sha256": "be168ebd1fa6432aa0f1c49152460e96046ca67b00418894a63364663526e2d4"
+    },
+    "session-journals/final-acceptance-r1/five-life-boot.png": {
+      "bytes": 3790,
+      "sha256": "5a58586bfed4b1c3bdab8fc5079fc67206e3dd9aa43dd8299b711c8ad5c25c0f"
+    },
+    "session-journals/final-acceptance-r1/five-life-early-play.png": {
+      "bytes": 2407,
+      "sha256": "79d52f250140a9459e7e2037175646c56f558038b1b936a1d4a59f376953090c"
+    },
+    "session-journals/final-acceptance-r1/five-life-first-play-later.png": {
+      "bytes": 5414,
+      "sha256": "95952eee01d6587ff7ec51916706dcdfd514caeed0d0cdcfee10d810eff8acff"
+    },
+    "session-journals/final-acceptance-r1/five-life-first-play.png": {
+      "bytes": 6400,
+      "sha256": "b358e4935d1a1cb996fd1dfb5120a3041b9ae3eb4f1a11719b85a33f4390ebd1"
+    },
+    "session-journals/final-acceptance-r1/five-life-fresh-boot.png": {
+      "bytes": 3932,
+      "sha256": "a7f9d74289e955f1fdbf8e3edae837cd70b37ac1a157d5eb771c35baf0af3e25"
+    },
+    "session-journals/final-acceptance-r1/five-life-gameplay.png": {
+      "bytes": 6170,
+      "sha256": "b5a90c6c34fe51c85b4bc6978e4e71ed215b3928ffb99383b488f8689a59b0fa"
+    },
+    "session-journals/final-acceptance-r1/five-life-intro.png": {
+      "bytes": 4357,
+      "sha256": "9b8a3b6df3de6a527d41fd310025daf6e67eaba603f249e8ea4fdd376a8e7b4d"
+    },
+    "session-journals/final-acceptance-r1/five-life-start-before-play.png": {
+      "bytes": 2407,
+      "sha256": "79d52f250140a9459e7e2037175646c56f558038b1b936a1d4a59f376953090c"
+    },
+    "session-journals/final-acceptance-r1/four-credit-boot.png": {
+      "bytes": 3797,
+      "sha256": "139e85f84ffc2a58eb056b2a2a2341431f9c1d1517dbb4ba90504b5b6002d91f"
+    },
+    "session-journals/final-acceptance-r1/four-credit-count.png": {
+      "bytes": 4711,
+      "sha256": "684b47026fdd957584be081fdad3433608229851256aaa7a1601a1bd7ea4330f"
+    },
+    "session-journals/final-acceptance-r1/four-credit-display.png": {
+      "bytes": 9500,
+      "sha256": "357fe83fda7159a0290089bb70405fd88038252d42a9a2d925655b12f96c6a2b"
+    },
+    "session-journals/final-acceptance-r1/four-credit-one-coin.png": {
+      "bytes": 2452,
+      "sha256": "ad8aeef3f5978706451386b4a74d41a4f0857e0ce1fac7b5dfa4841c99b100e3"
+    },
+    "session-journals/final-acceptance-r1/freeplay-boot.png": {
+      "bytes": 3805,
+      "sha256": "263be7023a750ef8232e39788020958ea2c8a2300485ee5452329de45ba096f3"
+    },
+    "session-journals/final-acceptance-r1/freeplay-gameplay.png": {
+      "bytes": 6337,
+      "sha256": "e29b6600894e9062b3d9aa7001cdd7f3127232829f3a4995e2f01cda3b83702d"
+    },
+    "session-journals/final-acceptance-r1/freeplay-no-coin-start.png": {
+      "bytes": 4031,
+      "sha256": "c16a4b2367e28bc4d7e7bd58084e22747a3f908a2ca7818d40b4d769b24cb48c"
+    },
+    "session-journals/final-acceptance-r1/invulnerable-boot.png": {
+      "bytes": 3805,
+      "sha256": "263be7023a750ef8232e39788020958ea2c8a2300485ee5452329de45ba096f3"
+    },
+    "session-journals/final-acceptance-r1/invulnerable-contact.png": {
+      "bytes": 6150,
+      "sha256": "cc31049f4c03d2f47bee0abb904a630c3dd95a0c629ffdd9a9c1a7fd2b9edaf0"
+    },
+    "session-journals/final-acceptance-r1/invulnerable-human-confirmed.png": {
+      "bytes": 6111,
+      "sha256": "726dabec052cb4c967b23110ff3faccf83314ed6527c82151015c29873f15808"
+    },
+    "session-journals/final-acceptance-r1/invulnerable-start.png": {
+      "bytes": 4357,
+      "sha256": "9b8a3b6df3de6a527d41fd310025daf6e67eaba603f249e8ea4fdd376a8e7b4d"
+    },
+    "session-journals/final-acceptance-r1/invulnerable-survival-a.png": {
+      "bytes": 6157,
+      "sha256": "b61da430b74643ee63c683d3ce840a39af00048c581a1dbc2e7737c4d9f80199"
+    },
+    "session-journals/final-acceptance-r1/invulnerable-survival-b.png": {
+      "bytes": 6211,
+      "sha256": "b311a9232c99c16fa23820d35c3a3af7ac9e483b631fb98a7f0bc5f996810e8a"
+    },
+    "session-journals/final-acceptance-r1/normal-final-boot.png": {
+      "bytes": 3932,
+      "sha256": "a7f9d74289e955f1fdbf8e3edae837cd70b37ac1a157d5eb771c35baf0af3e25"
+    },
+    "session-journals/final-acceptance-r1/normal-final-first-player.png": {
+      "bytes": 6272,
+      "sha256": "bc60f0835b1f88093c3506c2988299c0694bb04c0050734db8edb3b10a092ce9"
+    },
+    "session-journals/final-acceptance-r1/normal-final-two-player-start.png": {
+      "bytes": 3963,
+      "sha256": "88ffd0f84cc20f6474e33d4f82583bd2b0c2a363af2453b330c5f23a3f89bd08"
+    },
+    "session-journals/final-acceptance-r1/three-credit-count.png": {
+      "bytes": 9281,
+      "sha256": "91c214c286a2825eed0de68fb3a0b0cfd204401471822d1f1e26e50c83c3ba5e"
+    },
+    "session-journals/final-acceptance-r1/three-credit-wait-a.png": {
+      "bytes": 2471,
+      "sha256": "c2742c2001719313f81584d3d900160a1df7075698f38195e7d96b5c407bc61a"
+    },
+    "session-journals/final-acceptance-r1/three-credit-wait-b.png": {
+      "bytes": 9422,
+      "sha256": "b62a504411bc8782b97e0e2db17276421beeeab0b504f2cf86db4b48fc52fb38"
+    },
+    "session-journals/final-acceptance-r1/two-credit-count-late.png": {
+      "bytes": 4610,
+      "sha256": "731921c43b30ce6cb61e793a9375a254f2cf1415ca2a531450a8cbe25e44d446"
+    },
+    "session-journals/final-acceptance-r1/two-credit-count.png": {
+      "bytes": 9491,
+      "sha256": "a2acf7928a614e8ce0266720e209ac2d5f12385e63147b6cd76e4eae8ad97e9e"
+    },
+    "session-journals/final-acceptance-r1/two-credit-wait-a.png": {
+      "bytes": 2431,
+      "sha256": "af8d4c58b805a0745f86c539e37d0cd565a1c258cf7b389ebf86c87df7213732"
+    },
+    "session-journals/final-acceptance-r1/two-credit-wait-b.png": {
+      "bytes": 9437,
+      "sha256": "839a4420589477825b42d3e3b4404999b4c1c113d1840403445fd3c279218d85"
+    },
+    "session-journals/two-player-live-r1.json": {
+      "bytes": 932319,
+      "sha256": "014c9fad30f9481b5f7979eb00aa2eaf430b9d665296f9dc62ff7ca13377c016"
+    },
+    "session-journals/two-player-live-r1/after-player1-run.png": {
+      "bytes": 5822,
+      "sha256": "077e0df54d05a6912c7d8fac600dd7c5223bed34ec1a8b02d9920c311a59d094"
+    },
+    "session-journals/two-player-live-r1/end-two-player-state.png": {
+      "bytes": 6352,
+      "sha256": "c0c489a70a2d4411bd075489663f980f3c8fc6444e333aa429ecef580aa7513b"
+    },
+    "session-journals/two-player-live-r1/fresh-default-boot.png": {
+      "bytes": 3790,
+      "sha256": "5a58586bfed4b1c3bdab8fc5079fc67206e3dd9aa43dd8299b711c8ad5c25c0f"
+    },
+    "session-journals/two-player-live-r1/fresh-two-player-left.png": {
+      "bytes": 6421,
+      "sha256": "e342557e06c85a16bb709d0944dc9551c6c06b32d0d9def162678b206d8fd7c0"
+    },
+    "session-journals/two-player-live-r1/fresh-two-player-now.png": {
+      "bytes": 2407,
+      "sha256": "79d52f250140a9459e7e2037175646c56f558038b1b936a1d4a59f376953090c"
+    },
+    "session-journals/two-player-live-r1/fresh-two-player-right.png": {
+      "bytes": 6454,
+      "sha256": "3e0ee2a0c9b83cd9a58139d5b2b78909db719cf811de78212bf7dc9aee58945a"
+    },
+    "session-journals/two-player-live-r1/p2-after-left.png": {
+      "bytes": 2876,
+      "sha256": "2bbb121983483de159d80393778dfbec3e1f5380609d17bddccbbb689baba761"
+    },
+    "session-journals/two-player-live-r1/p2-after-right.png": {
+      "bytes": 6384,
+      "sha256": "efa4686efd0fd470ec818533ae88cd6059e3f25f6e0bc441fff1fd4e8ee84de1"
+    },
+    "session-journals/two-player-live-r1/p2-before-control.png": {
+      "bytes": 5933,
+      "sha256": "cd2549838f0ab5536bb8f400538c73b7bf2b8e5012f8e2807a0e1e21c67eb705"
+    },
+    "session-journals/two-player-live-r1/start2-fresh.png": {
+      "bytes": 4294,
+      "sha256": "1bbadf0f64cdd1bf9f8e586310846fef2a130a30e7578955f4310b2b18cefb60"
+    },
+    "session-journals/two-player-live-r1/turn-check-a.png": {
+      "bytes": 6250,
+      "sha256": "982def5c12357d6be98a8a49dc4a50a718b734c8eaf32993d23f1c538e597746"
+    },
+    "session-journals/two-player-live-r1/turn-check-b.png": {
+      "bytes": 5335,
+      "sha256": "de4078b02a8c99446aa9d5158f03b5c2eadf51aab8ec7a499a89dd11d14ea12a"
+    },
+    "session-journals/two-player-live-r1/two-credits-after-start2.png": {
+      "bytes": 3963,
+      "sha256": "88ffd0f84cc20f6474e33d4f82583bd2b0c2a363af2453b330c5f23a3f89bd08"
+    },
+    "session-journals/two-player-live-r1/two-credits.png": {
+      "bytes": 3932,
+      "sha256": "a7f9d74289e955f1fdbf8e3edae837cd70b37ac1a157d5eb771c35baf0af3e25"
+    },
+    "session-journals/two-player-live-r1/two-player-status.png": {
+      "bytes": 2702,
+      "sha256": "0c2d70db6190b63976dcc0e338e24b06c25df5e4f0ade8e7158f5eefb8fee7b2"
+    },
+    "session_control.py": {
+      "bytes": 8553,
+      "sha256": "bd4eb4079fc387f9213144cb6a486b94cad87032ccd07fbd495061a3769c406c"
+    }
+  },
+  "remaining": [
+    "Pending user normal2P special/combined actions, next-room progression, core Reset/restart and post-game DemoOn sound",
+    "FreePlay restart",
+    "Scramble and SuperCobra regressions"
+  ]
+}

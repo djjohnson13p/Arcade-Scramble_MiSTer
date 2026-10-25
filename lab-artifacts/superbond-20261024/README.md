@@ -9,3 +9,9 @@ SB45F001.rbf and SB45F001.mra are the exact isolated hardware-test pair. Keep th
 Quartus25.1 Lite compiled the candidate at the original intended clocks and seed. Eight-corner constrained-fabric minimum slacks: setup +0.346ns, hold +0.109ns, recovery +3.674ns, removal +0.379ns. Inherited HPS/off-chip I/O coverage gaps remain; this is not full-board timing signoff. Quartus changed only LAST_QUARTUS_VERSION metadata in the isolated QSF; raw conservative failure flags and the separate byte-level acceptance are preserved.
 
 MANIFEST.json binds the exact compiled RTL byte copy, RBF and selected evidence. Git may normalize source line endings; compiled-Arcade-Scramble.sv preserves the exact compiled overlay bytes. Hardware acceptance and regression results will be recorded here after the remaining checks finish. No PR or author contact has been made.
+
+Completed hardware checks so far: correct separate starts and alternating Player2 turn/scoring, all eight movement directions, gameplay sound, B plus direction stationary shooting and A Zap response; connected Coin1 gives the configured1/2/3/4 credits; five lives show four reserve icons before a death; Free Play starts without a coin; Invulnerable survives enemy contact; DemoOff preserves gameplay sound and silences normal post-game demo sound. Human observations supplement the captured frames.
+
+`hardware-evidence-through-dips.zip` preserves the closed session journals, exact raw captures, fixture bindings, hardware review and helper sources. `hardware-evidence-index.json` binds all116 archived files. The archive also retains earlier stopped/inconclusive phases as history; a completed transport action alone is not a gameplay pass.
+
+Still pending: normal-life progression and core Reset/restart, Player2 special/combined actions, post-game DemoOn audio, FreePlay restart, and Scramble/SuperCobra hardware regressions. The normal Super Bond game is left under the user's control for these observations.

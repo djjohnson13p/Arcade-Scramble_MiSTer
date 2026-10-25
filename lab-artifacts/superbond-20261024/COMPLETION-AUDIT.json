@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-25T02:26:51.702822+00:00",
+  "decision": "SELECTED_CORE_FIX_AND_AUTHORIZED_PR_DELIVERY_COMPLETE",
+  "requirements": {
+    "joint_console_arcade_selection": "CURRENT_GOAL.md and user-selected Agent Super Bond issue45",
+    "current_issue_checked": "Issue45 open/no comments; upstreambase dea71c93615030583b23362226708f67d2294458 unchanged at submission",
+    "baseline_reproduced_and_timing_verified": "Stock and compiled-baseline functional reviews plus eight-corner baseline acceptance",
+    "contained_fix": "Eight RTL additions, newMRA, oneREADMEbullet, testeddatedRBF; no architecture or constraint change",
+    "automated_tests": "input-contract-r1/result.json; exacttestedRTL/MRA hashes equalPRworktree",
+    "candidate_timing": "Eight-corner constrained-fabric ROOT-TIMING-REVIEW, with inherited coverage qualification and exact tool-versionmetadata review retained",
+    "complete_hardware_acceptance": "33 verified items; independent final audit and livehuman observations",
+    "preservation": "Final166-file evidence archive and source/RBF preserved on fork lab branch; exact4filePRreviewbranch",
+    "user_authorization": "User requested upstreamPR and approved disclosedAI-assisted description",
+    "external_delivery": "https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer/pull/52; OPEN/ready, correctauthor/head/base, exactapprovedbody/4files/1commit verified; attached in app",
+    "bounds": "Computerexperimentsstopped; Shienryufallbacknotactivated; nodefaultbranchpush ormergeperformed"
+  },
+  "maintainer_merge_status": "Pending upstreamreview; no claim of merger",
+  "remaining_agent_work": [],
+  "next_candidate_selected": false
+}

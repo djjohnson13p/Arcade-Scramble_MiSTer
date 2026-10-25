@@ -59,5 +59,12 @@
     "status": "ISSUE45_SELECTED_FIX_FULLY_VERIFIED",
     "issue_complete": true
   },
-  "historical_evidence": "candidate-evidence-draft.json and hardware-evidence-through-dips.zip are frozen earlier checkpoints, superseded by the final acceptance."
+  "historical_evidence": "candidate-evidence-draft.json and hardware-evidence-through-dips.zip are frozen earlier checkpoints, superseded by the final acceptance.",
+  "upstream_pr": {
+    "url": "https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer/pull/52",
+    "state": "OPEN",
+    "head": "a37a4396b4f544839bdd54a0a09ec98387e3f8f3",
+    "base": "master",
+    "published_description_verified": true
+  }
 }

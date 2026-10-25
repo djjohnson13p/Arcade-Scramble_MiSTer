@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-25T02:24:53.789112+00:00",
+  "url": "https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer/pull/52",
+  "number": 52,
+  "created_in_this_call": true,
+  "author": "djjohnson13p",
+  "base": "master",
+  "head": "fix/agent-super-bond-inputs",
+  "head_commit": "a37a4396b4f544839bdd54a0a09ec98387e3f8f3",
+  "evidence_commit": "0a5b4e5afdc12222650a584eaff9b813313db906",
+  "connector_post_failed_403": true,
+  "cli_succeeded": true
+}

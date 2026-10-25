@@ -1,0 +1,60 @@
+{
+  "author": {
+    "id": "MDQ6VXNlcjYwMjM4MTk3",
+    "is_bot": false,
+    "login": "djjohnson13p",
+    "name": ""
+  },
+  "baseRefName": "master",
+  "body": "### \ud83d\udcdd Description\r\nI worked with Codex to add the missing hardware configuration and MRA for the unencrypted Super Cobra conversion of Agent Super Bond. The dedicated input mode provides eight-way movement, separate player starts, Hold and Zap.\r\n\r\nI tested the build on my first-generation dual-RAM MiSTer Pi and confirmed both players\u2019 controls, Hold and Zap together, room progression and sound. We also verified DIP settings, Free Play, reset/restart behavior, and Scramble/Super Cobra regressions. The Quartus 25.1 build passes all eight available timing corners, with the inherited timing-coverage qualifications documented in the test report.\r\n\r\n### \ud83d\udd17 Related Issues\r\nCloses #45.\r\n\r\n### Validation\r\n- The included dated RBF is the exact hardware-tested build. RTL modes0\u201319 and the issue\u2019s ROM payload remain unchanged; new mode20 is selected by MRA byte14.\r\n- Quartus25.1 Lite, eight-corner constrained-fabric minima: setup +0.346ns, hold +0.109ns, recovery +3.674ns, removal +0.379ns. Existing HPS/off-chip coverage limits remain; no timing constraints were relaxed.\r\n- Production input-decode contracts and old-mode comparisons passed. Detailed build provenance, vector counts, hardware observations, binary hash and the declared provisional palette reference: [verification report](https://github.com/djjohnson13p/Arcade-Scramble_MiSTer/blob/0a5b4e5afdc12222650a584eaff9b813313db906/lab-artifacts/superbond-20261024/VERIFICATION.md).\r\n\r\nImplementation and analysis were AI-assisted with Codex; the description was reviewed and approved by me, and live hardware observations were confirmed by me.\r\n\r\n### \u2705 Checklist\r\n- [x] Changes follow the project\u2019s existing mode and MRA style.\r\n- [x] Code was self-reviewed with Codex and independently checked; hardware was tested by the contributor.\r\n- [x] No code comments were added.\r\n",
+  "commits": [
+    {
+      "authoredDate": "2026-10-25T02:22:58Z",
+      "authors": [
+        {
+          "email": "dale.russell.johnson@gmail.com",
+          "id": "MDQ6VXNlcjYwMjM4MTk3",
+          "login": "djjohnson13p",
+          "name": "djjohnson13p"
+        }
+      ],
+      "committedDate": "2026-10-25T02:22:58Z",
+      "messageBody": "",
+      "messageHeadline": "Add Agent Super Bond hardware configuration and MRA",
+      "oid": "a37a4396b4f544839bdd54a0a09ec98387e3f8f3"
+    }
+  ],
+  "files": [
+    {
+      "path": "Arcade-Scramble.sv",
+      "additions": 8,
+      "deletions": 0,
+      "changeType": "MODIFIED"
+    },
+    {
+      "path": "README.md",
+      "additions": 1,
+      "deletions": 0,
+      "changeType": "MODIFIED"
+    },
+    {
+      "path": "releases/Agent Super Bond (Super Cobra conversion, not encrypted).mra",
+      "additions": 54,
+      "deletions": 0,
+      "changeType": "ADDED"
+    },
+    {
+      "path": "releases/Arcade-Scramble_20261024.rbf",
+      "additions": 0,
+      "deletions": 0,
+      "changeType": "ADDED"
+    }
+  ],
+  "headRefName": "fix/agent-super-bond-inputs",
+  "headRefOid": "a37a4396b4f544839bdd54a0a09ec98387e3f8f3",
+  "isDraft": false,
+  "mergeStateStatus": "CLEAN",
+  "state": "OPEN",
+  "statusCheckRollup": [],
+  "url": "https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer/pull/52"
+}

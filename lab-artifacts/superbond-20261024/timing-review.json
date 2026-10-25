@@ -1,0 +1,40 @@
+{
+  "utc": "2026-10-25T00:53:08.206237+00:00",
+  "reviewer": "root",
+  "decision": "POSITIVE_ALL_CORNER_CONSTRAINED_FABRIC_TIMING",
+  "positive_all_corner_timing": true,
+  "candidate_source_sha256": "bb3eaec714b73666e3d4851b06cef854058d081e75494f216fd3d4bbca21227f",
+  "candidate_rbf_sha256": "1f5c0768026ef96b8bdad31e1bb4ce490f90aabc458351896f1b9546dbec2400",
+  "candidate_rbf_bytes": 3511684,
+  "corners": 8,
+  "clocks_per_corner": 14,
+  "global_checks": 32,
+  "clock_rows": 448,
+  "zero_NA_rows": 224,
+  "minimum_slacks_ns": {
+    "setup": 0.346,
+    "hold": 0.109,
+    "recovery": 3.674,
+    "removal": 0.379
+  },
+  "mpw_worst50_per_corner": 50,
+  "mpw_minimum_reported_slack_ns": 1.017,
+  "zero_rows_are_not_passes": true,
+  "full_board_timing_signoff": false,
+  "qualification": "Inherited HPS primitives and off-chip I/O coverage gaps remain: no_clock3094 (five HPS groups, zero emu),multiple_clock86,virtual_clock1,no_input_delay29,no_output_delay129. No ignored constraints. Existing waveforms/periods and zero-path applicability match baseline; register population need not match.",
+  "metadata_delta_audit": {
+    "path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\superbond-candidate-q251-r2\\qsf-version-metadata-review.json",
+    "sha256": "5ae12492b221a9875b652c2fab2d96660959bccbafe778378597b3e5f6e35a3d",
+    "raw_exact_source_and_adapter_flags_remain_false": true
+  },
+  "evidence_sha256": {
+    "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\superbond-candidate-sta-all-corners-r1\\independent-global-coverage-preservation-audit.json": "299f604d63f39bc3a87bae8a2f228e03471d00fcafad8e27daeb18d9d40dad63",
+    "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\superbond-candidate-sta-all-corners-r1\\independent-clock-mpw-audit.json": "8e8167a564956471fe21a426393cb0e9c0ae5f32fda788dae89beda9a7847785",
+    "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\superbond-candidate-sta-all-corners-r1\\result.json": "be889180b3df4680462eecd6b85b9b605eb8db369d2e6aa5ef3ad89567cbeed5",
+    "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\superbond-candidate-sta-all-corners-r1\\preservation-readback.json": "203afa7f31dc57bd2c46a5a7cd91f79b654f7eb93aeaaad683bb1e0d441595f7",
+    "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\superbond-candidate-sta-all-corners-r1\\terminal-task-cleanup.json": "c372c905e35ae879536e3739c1355cab5476eacb603477ff575d32c812d151e0",
+    "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\superbond-candidate-q251-r2\\root-fit-acceptance.json": "47a4db879088355eb503f36648980d27a9dbe94e6fc0e828efb21437e7c3a266"
+  },
+  "hardware_acceptance_still_required": true,
+  "issue_complete": false
+}

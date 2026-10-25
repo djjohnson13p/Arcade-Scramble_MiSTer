@@ -1,0 +1,120 @@
+{
+  "decision": "PASS_LOCAL_INPUT_AND_MRA_CONTRACT",
+  "candidate_source_sha256": "bb3eaec714b73666e3d4851b06cef854058d081e75494f216fd3d4bbca21227f",
+  "old_pin": "dea71c93615030583b23362226708f67d2294458",
+  "old_source_sha256": "b3ab0f5cf2b505dd4bf03332456c5c549bcb48cd5cd9d3bdc0e5268437d2244c",
+  "mra_sha256": "5cd44822ecc20c2ddb31dd8d5cf41c1d5cbd4f23e9aef5844ddfc7d175f28893",
+  "zip_sha256": "9f64d242617a456240ed59c61676b79fc2462dafb59e3c40be4caf63c09d7473",
+  "extracts": {
+    "candidate": {
+      "localparams_sha256": "26cb6fe2375ccd459a94fd7de9806d2f5b93fed30e8dde576db343c346de8562",
+      "control_wires_sha256": "cb793c379640136f959802b8464fb0365173db8f6b3a711fe326cd7a891ec745",
+      "decode_sha256": "c19c9faa083a3262e293cb319196114aa77c47acde82bcfff0a5c693666c9ca8",
+      "ppi_expressions": {
+        "A": "sw[0] & input0",
+        "B": "sw[1] & input1",
+        "C": "sw[2] & input2",
+        "D": "sw[3] & input3"
+      }
+    },
+    "old": {
+      "localparams_sha256": "90c6d1b583f51764b6b31b86b04320ac8b48b8f8bb7a6136b781c386c143a577",
+      "control_wires_sha256": "cb793c379640136f959802b8464fb0365173db8f6b3a711fe326cd7a891ec745",
+      "decode_sha256": "ca5d3b44c7f2ff62a32be33a9023f4802fde4b4eb173c2efd56226dcc2a9d2d4",
+      "ppi_expressions": {
+        "A": "sw[0] & input0",
+        "B": "sw[1] & input1",
+        "C": "sw[2] & input2",
+        "D": "sw[3] & input3"
+      }
+    }
+  },
+  "reference": "MAME b7c0bfd16c9b8fe451c7e3d9cf7642c857642c44 galaxian.cpp losttomb inputs + superbon overrides, reviewed in mapping-plan-r1.json",
+  "controls": {
+    "logical_bits_exhausted": 12,
+    "target_transports": 4,
+    "target_raw": 16384,
+    "target_all_32_dip_combinations": 524288,
+    "old_modes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "old_exhaustive_transports": 983040,
+    "old_random_independent_ports": 40960,
+    "invalid_mode_bytes": "21..255",
+    "invalid_mode_vectors": 3760,
+    "fire_e": "joy[8] also Start1: verified only Start1 effect, no Hold/Zap alias"
+  },
+  "mra": {
+    "mode": "14",
+    "defaults": "FF,FD,F3",
+    "labels": "Zap,Hold,-,-,Start 1P,Start 2P,Coin,Pause",
+    "payload_composition_unchanged": true,
+    "payload_bytes": 57376,
+    "payload_md5": "f65f589945276dc75b001d59182aba4d",
+    "palette_limitation_declared": true
+  },
+  "commands": [
+    {
+      "command": [
+        "C:\\Users\\djjoh\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-Xutf8",
+        "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\triple-play-feasibility-20261024\\mapper-probe\\run_icarus.py",
+        "iverilog",
+        "-g2012",
+        "-s",
+        "tb",
+        "-o",
+        "contract.vvp",
+        "extracted.sv",
+        "tb.sv"
+      ],
+      "cwd": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\superbond-feasibility-20261024\\input-contract-r1",
+      "exit_code": 0,
+      "elapsed_seconds": 0.297,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\djjoh\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-Xutf8",
+        "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\triple-play-feasibility-20261024\\mapper-probe\\run_icarus.py",
+        "vvp",
+        "contract.vvp"
+      ],
+      "cwd": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\superbond-feasibility-20261024\\input-contract-r1",
+      "exit_code": 0,
+      "elapsed_seconds": 39.594,
+      "stdout": "PASS target_raw=16384 target_dip=524288 existing_exhaustive_transports=983040 existing_random_joint_ports=40960 invalid_mode_vectors=3760\ntb.sv:124: $finish called at 1568432000 (1ps)\n",
+      "stderr": ""
+    }
+  ],
+  "artifacts": {
+    "verify.py": "77899b0e256300cc3d62ce3987c20282a5e9f1268eb18ee3d1cf3c48205132cd",
+    "extracted.sv": "5ce4414fd456d51fdae1c637b8689d4f2d947835f4cb14b4c63dc6e6cdafe96e",
+    "tb.sv": "c3b289005e7e763cef38bc6701e065b46caf10d5f9e8eceef8a981d49ee0f753",
+    "contract.vvp": "370bb4f693af7a82bb72a00211838876730de47b57369f3ffedada814858f1ea"
+  },
+  "limits": "Extracted production input logic plus actual DIP-AND expressions only; no timing, full-core elaboration, audio, graphics, gameplay, electrical or hardware acceptance is claimed. Joint 64-bit controller space is sampled after exhaustive logical transports."
+}

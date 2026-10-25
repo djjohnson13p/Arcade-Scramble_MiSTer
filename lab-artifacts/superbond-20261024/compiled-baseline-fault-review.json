@@ -1,0 +1,25 @@
+{
+  "utc": "2026-10-24T23:40:58.018107+00:00",
+  "decision": "COMPILED_BASELINE_BOOT_AND_NARROW_STOCK_FAULT_QUALIFIED",
+  "reviewer": "root",
+  "run_state_sha256": "10a39f2747c08321ad2518e668e5f08896bd73bea4ce0ba3bcb9a39f4ebc6967",
+  "compiled_rbf_sha256": "6a2dc555e6643c66046454446a729e5d80e289c4f3eddf03698ec5fa92339b8c",
+  "raw_captures": {
+    "target-00-boot.png": "e3f42ef9f7b1ad280bb3f872b64d270966d96051aa306711c15a4ecd3db4f54c",
+    "target-01-coin.png": "7d6d35d61602db10f3c477d6fe1b0b5f49af6f478989236caf54437866303993",
+    "target-02-start1.png": "6d3ec934741cb6bef29821a8e390701a75f4cb25844da6155a43d31cac091e87",
+    "target-03-fire2.png": "1bbadf0f64cdd1bf9f8e586310846fef2a130a30e7578955f4310b2b18cefb60"
+  },
+  "review_image": {
+    "file": "review-rotated.png",
+    "sha256": "a61fcdb6a898faedf9d99cb39d9013d1e264224270c6bbca7557dc5483626515"
+  },
+  "observed": "Root viewed all four derived orientations of preserved captures: boot, Coin and Start1 remain SUPERBOND attract; Fire2 changes to PLAYER1UP / ROOM1 / room-points42, matching official r3 states.",
+  "credit_count_directly_observed": false,
+  "input_replies_all_completed": true,
+  "final_idle_menu_user": true,
+  "protected_originals_and_membership_unchanged": true,
+  "scope": "Exact assembled unchanged baseline boot and narrow stock fault only. No full behavioral equivalence, full-board timing signoff, or completed fix claim.",
+  "implementation_gate": "Baseline fit/qualified clocked-fabric timing, official hardware fault and compiled artifact narrow behavior now established; proceed only with contained input/configuration change.",
+  "issue_complete": false
+}

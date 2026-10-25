@@ -1,0 +1,59 @@
+{
+  "utc": "2026-10-25T01:47:02.258286+00:00",
+  "status": "HARDWARE_ACCEPTANCE_IN_PROGRESS",
+  "issue_complete": false,
+  "branch": "lab/superbond-feasibility",
+  "upstream_pin": "dea71c93615030583b23362226708f67d2294458",
+  "files": {
+    "SB45F001.rbf": {
+      "bytes": 3511684,
+      "sha256": "1f5c0768026ef96b8bdad31e1bb4ce490f90aabc458351896f1b9546dbec2400",
+      "workspace_source": "core-lab/builds/superbond-candidate-q251-r2/tree/output_files/Arcade-Scramble.rbf"
+    },
+    "SB45F001.mra": {
+      "bytes": 1940,
+      "sha256": "ea17701a241e3d9d5341952f17a777f9b14f4d41e526ccb77ea954bd948de41f",
+      "workspace_source": "core-lab/research/superbond-feasibility-20261024/candidate-hardware-r1/SB45F001.mra"
+    },
+    "compiled-Arcade-Scramble.sv": {
+      "bytes": 21103,
+      "sha256": "bb3eaec714b73666e3d4851b06cef854058d081e75494f216fd3d4bbca21227f",
+      "workspace_source": "core-lab/cores/Arcade-Scramble_MiSTer/Arcade-Scramble.sv"
+    },
+    "candidate-evidence-draft.json": {
+      "bytes": 9038,
+      "sha256": "758c50efcdfb7aeeb73d25bb4a7ffd6619db990e28bc74d66089e1c4eb7123b1",
+      "workspace_source": "core-lab/research/superbond-feasibility-20261024/candidate-evidence-draft-r1.json"
+    },
+    "timing-review.json": {
+      "bytes": 2950,
+      "sha256": "2e79abb797f028ab837331cd5f8f9685e734e9d6a8ffff691be4442d5e675af1",
+      "workspace_source": "core-lab/builds/superbond-candidate-sta-all-corners-r1/ROOT-TIMING-REVIEW.json"
+    },
+    "qsf-metadata-review.json": {
+      "bytes": 1463,
+      "sha256": "5ae12492b221a9875b652c2fab2d96660959bccbafe778378597b3e5f6e35a3d",
+      "workspace_source": "core-lab/builds/superbond-candidate-q251-r2/qsf-version-metadata-review.json"
+    },
+    "input-contract-result.json": {
+      "bytes": 4786,
+      "sha256": "df717e9c59a541d6aa58cff955dd5cad85364a090fdf6ba55f26b623208dc4af",
+      "workspace_source": "core-lab/research/superbond-feasibility-20261024/input-contract-r1/result.json"
+    },
+    "stock-fault-review.json": {
+      "bytes": 1754,
+      "sha256": "42fbd2b05c3691ab7fb05172edc17ec6bd7fd161b08518eccbee565375054639",
+      "workspace_source": "core-lab/research/superbond-feasibility-20261024/stock-repro-r3/functional-review.json"
+    },
+    "compiled-baseline-fault-review.json": {
+      "bytes": 1677,
+      "sha256": "2d6b89205da4852938f4bbb433b53aa911a0e9cc679b4f40452f369abdfede46",
+      "workspace_source": "core-lab/research/superbond-feasibility-20261024/compiled-baseline-repro-r1/functional-review.json"
+    }
+  },
+  "remaining": [
+    "Normal-life progression/core Reset/P2 combined actions/post-game Demo On",
+    "FreePlay no-coin restart",
+    "Scramble and Super Cobra hardware regressions"
+  ]
+}

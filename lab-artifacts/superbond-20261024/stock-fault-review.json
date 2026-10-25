@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-24T23:37:04.879982+00:00",
+  "decision": "STOCK_START1_FIRE2_FAULT_REPRODUCED",
+  "reviewer": "root",
+  "run_state_sha256": "337f3bc97db20801cbea0878b5075465b3f837ece9506ba31af1b0db934f7e29",
+  "raw_captures": {
+    "target-00-boot.png": "e3f42ef9f7b1ad280bb3f872b64d270966d96051aa306711c15a4ecd3db4f54c",
+    "target-01-coin.png": "c590f6e07e80b64af12fd42310841f6a787cc30eca99282c3048b4e17d5356ae",
+    "target-02-start1.png": "6d3ec934741cb6bef29821a8e390701a75f4cb25844da6155a43d31cac091e87",
+    "target-03-fire2.png": "9b8a3b6df3de6a527d41fd310025daf6e67eaba603f249e8ea4fdd376a8e7b4d"
+  },
+  "derived_review_image": {
+    "file": "review-rotated.png",
+    "sha256": "26f2164dedb43a3bde5539ab0a79d18f46e95526ba054fbe7711b250c5a3b90b",
+    "operation": "Lossless90degree orientation plus nearest2x for reading; raw images preserved"
+  },
+  "observations": [
+    "Boot, afterCoin and afterStart1 captures remain SUPER BOND attract display.",
+    "AfterFire2 image reads PLAYER1UP, ROOM1 and THIS ROOM?15000 POINTS with42 timer.",
+    "No visible numeric credit count was captured; do not call the coin numeral directly observed."
+  ],
+  "inference": "Default Lives is3 and Coinage1c1, not FreePlay; after the sole Coin input Fire2 causes1Pstart while Start1 does not. This corroborates the predicted default mode03 start-wiring fault.",
+  "gate_scope": "Reported stock control fault reproduced; not proof of full controls, movement, weapons, progression, audio or issue resolution.",
+  "normal_original_hashes_and_membership_unchanged": true,
+  "final_menu_user": true,
+  "issue_complete": false,
+  "next": "Qualify assembled unchanged25.1 baseline using same narrow stock sequence before core edits."
+}

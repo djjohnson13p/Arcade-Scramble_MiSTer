@@ -1,18 +1,22 @@
 {
-  "utc": "2026-10-25T01:51:12.298939+00:00",
+  "utc": "2026-10-25T01:52:51.458466+00:00",
   "status": "HARDWARE_ACCEPTANCE_PENDING",
   "issue_complete": false,
   "archive": "hardware-evidence-through-dips.zip",
-  "archive_sha256": "04aa03e967c74a919b924d6ddffe6de2b732bce02ab46611469f82d81f27efeb",
-  "archive_bytes": 545516,
+  "archive_sha256": "0f6695ec0463ac2ba98dec3ee8d37cca7dacc5fba5d25e804d5f69727202de1b",
+  "archive_bytes": 546154,
   "files": {
     "DEVICE-READY.json": {
       "bytes": 6858,
       "sha256": "97ce535e7120a50e8554e33b9cb6893350fffa187a1ed309fa23d3eb384dc8ad"
     },
     "HARDWARE-PROGRESS.json": {
-      "bytes": 3230,
-      "sha256": "e687da7788577e3edb81eae459695615025cfe208c7a9c2c13c436e7bc01f54b"
+      "bytes": 3437,
+      "sha256": "1c25c2713893342ecc550be5bcf19ca9fcf81f42e3df058276f90aa7a26307af"
+    },
+    "HARDWARE-REVIEW-CORRECTION.json": {
+      "bytes": 626,
+      "sha256": "14d78c1751c2b93e8a5e915255390e783f30b25123b2b4d5d993b5d690765e12"
     },
     "PHASE-CONTROL-V2.md": {
       "bytes": 1814,

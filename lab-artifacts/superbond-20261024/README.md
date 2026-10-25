@@ -12,6 +12,8 @@ MANIFEST.json binds the exact compiled RTL byte copy, RBF and selected evidence.
 
 Completed hardware checks so far: correct separate starts and alternating Player2 turn/scoring, all eight movement directions, gameplay sound, B plus direction stationary shooting and A Zap response; connected Coin1 gives the configured1/2/3/4 credits; five lives show four reserve icons before a death; Free Play starts without a coin; Invulnerable survives enemy contact; DemoOff preserves gameplay sound and silences normal post-game demo sound. Human observations supplement the captured frames.
 
-`hardware-evidence-through-dips.zip` preserves the closed session journals, exact raw captures, fixture bindings, hardware review and helper sources. `hardware-evidence-index.json` binds all116 archived files. The archive also retains earlier stopped/inconclusive phases as history; a completed transport action alone is not a gameplay pass.
+`hardware-evidence-through-dips.zip` preserves the closed session journals, exact raw captures, fixture bindings, hardware review and helper sources. `hardware-evidence-index.json` binds all117 archived files. The archive also retains earlier stopped/inconclusive phases as history; a completed transport action alone is not a gameplay pass.
 
 Still pending: normal-life progression and core Reset/restart, Player2 special/combined actions, post-game DemoOn audio, FreePlay restart, and Scramble/SuperCobra hardware regressions. The normal Super Bond game is left under the user's control for these observations.
+
+The included hardware-review correction narrows the five-life evidence to four visible reserves before a death; the paired images do not establish the subsequent decrement. Five starting lives remains verified.

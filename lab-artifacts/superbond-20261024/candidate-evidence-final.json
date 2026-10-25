@@ -1,0 +1,222 @@
+{
+  "format": "superbond-candidate-evidence-final-v1",
+  "created_utc": "2026-10-25T01:45:05.613074+00:00",
+  "status": "ISSUE45_SELECTED_FIX_FULLY_VERIFIED",
+  "issue_complete": true,
+  "purpose": "Final preservation of the fully verified selected issue45 fix; raw historical receipts retain their original flags.",
+  "path_basis": "Paths are relative to the original MiSTer-Rebuild-Kit workspace root",
+  "scope": {
+    "issue": "MiSTer-devel/Arcade-Scramble_MiSTer issue45",
+    "change": "Dedicated Agent Super Bond input mode and MRA configuration for the unencrypted Super Cobra conversion",
+    "excluded": "Palette PROM remains provisional as declared in the MRA"
+  },
+  "source_base": {
+    "repository": "https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer",
+    "commit": "dea71c93615030583b23362226708f67d2294458",
+    "source_sv_sha256": "b3ab0f5cf2b505dd4bf03332456c5c549bcb48cd5cd9d3bdc0e5268437d2244c",
+    "latest_upstream_claim": false
+  },
+  "local_candidate": {
+    "fork": "https://github.com/djjohnson13p/Arcade-Scramble_MiSTer",
+    "branch": "lab/superbond-feasibility",
+    "candidate_commit": "e189f9f844ef87360e20546010f46f23e1e483b4",
+    "source_state": "Committed RTL/MRA on the preserved lab branch; clean upstream review branch contains the same tested RTL/MRA.",
+    "sv": {
+      "path": "core-lab/cores/Arcade-Scramble_MiSTer/Arcade-Scramble.sv",
+      "bytes": 21103,
+      "sha256": "bb3eaec714b73666e3d4851b06cef854058d081e75494f216fd3d4bbca21227f"
+    },
+    "mra": {
+      "path": "core-lab/cores/Arcade-Scramble_MiSTer/releases/Agent Super Bond (Super Cobra conversion, not encrypted).mra",
+      "bytes": 1932,
+      "sha256": "5cd44822ecc20c2ddb31dd8d5cf41c1d5cbd4f23e9aef5844ddfc7d175f28893"
+    },
+    "rbf": {
+      "path": "core-lab/builds/superbond-candidate-q251-r2/tree/output_files/Arcade-Scramble.rbf",
+      "bytes": 3511684,
+      "sha256": "1f5c0768026ef96b8bdad31e1bb4ce490f90aabc458351896f1b9546dbec2400"
+    }
+  },
+  "configuration": {
+    "mode_byte_hex": "14",
+    "dip_defaults": "FF,FD,F3",
+    "button_labels": "Zap,Hold,-,-,Start 1P,Start 2P,Coin,Pause",
+    "rom_payload_bytes": 57376,
+    "rom_payload_md5": "f65f589945276dc75b001d59182aba4d",
+    "payload_composition_unchanged": true,
+    "palette_limitation_declared": true
+  },
+  "compilation": {
+    "quartus": "25.1std.0 Build1129 Lite",
+    "native_full_flow": [
+      "quartus_sh",
+      "--flow",
+      "compile",
+      "Arcade-Scramble"
+    ],
+    "seed": 1,
+    "processors": "ALL",
+    "automatic_wall_cutoff_seconds": null,
+    "elapsed_seconds": 2702.281,
+    "native_flow_exit": 0,
+    "raw_adapter_success": false,
+    "raw_exact_source_integrity_ok": false,
+    "raw_scheduler_exit": 1,
+    "metadata_exception": {
+      "decision": "EXACT_LAST_QUARTUS_VERSION_METADATA_ONLY",
+      "assignment": "LAST_QUARTUS_VERSION",
+      "before_value": "17.0.2 Lite Edition",
+      "after_value": "25.1std.0 Lite Edition",
+      "qsf_before_sha256": "73ef2682703d7cf408204b897d6a625c48f90d64f423b4a636245d0e448d6d61",
+      "qsf_after_sha256": "9cf2980ed59766ec28f71c6eab0fbcafe4eb7129881c6da7bbb15dce695ab5d2",
+      "exact_single_literal_replacement": true,
+      "other_protected_inputs_unchanged": 132,
+      "raw_failure_flags_preserved": true,
+      "separately_accepted_by_root": true
+    },
+    "snapshot": "Canonical pinned Git archive bytes plus approved SV overlay and byte-identical Q17-to-Q25 PLL-list alias; checkout CRLF variations recorded, not copied",
+    "clock_sdc_seed_logic_assignments_unchanged": true
+  },
+  "timing": {
+    "decision": "POSITIVE_ALL_CORNER_CONSTRAINED_FABRIC_TIMING",
+    "corners": 8,
+    "clocks_per_corner": 14,
+    "global_checks": 32,
+    "minimum_slacks_ns": {
+      "setup": 0.346,
+      "hold": 0.109,
+      "recovery": 3.674,
+      "removal": 0.379
+    },
+    "mpw_minimum_slack_ns": 1.017,
+    "mpw_paths_per_corner": 50,
+    "clock_check_rows": 448,
+    "positive_clock_path_rows": 224,
+    "zero_NA_rows": 224,
+    "zero_rows_are_not_passes": true,
+    "zero_row_incoming_timed_transfer_conflicts": 0,
+    "tns": "Zero derived from positive global worst slack plus zero-violated report headers; no standalone TNS field exported",
+    "clock_waveforms_periods_sources_and_zero_path_applicability_match_baseline": true,
+    "register_populations_differ_on_domains": 9,
+    "ignored_constraints": 0,
+    "full_board_signoff": false,
+    "inherited_coverage_limits": {
+      "no_clock": 3094,
+      "hps_primitive_groups": 5,
+      "emu_no_clock_nodes": 0,
+      "multiple_clock": 86,
+      "virtual_clock": 1,
+      "no_input_delay": 29,
+      "no_output_delay": 129
+    },
+    "preservation": {
+      "original_r2_files_unchanged": 608,
+      "protected_working_inputs_unchanged": 141,
+      "copy_local_db_cache_files_changed": 5,
+      "copy_local_db_cache_files_added": 14
+    }
+  },
+  "fault_reproduction": {
+    "official_stock": "STOCK_START1_FIRE2_FAULT_REPRODUCED",
+    "compiled_unchanged_baseline": "COMPILED_BASELINE_BOOT_AND_NARROW_STOCK_FAULT_QUALIFIED",
+    "compiled_baseline_rbf_sha256": "6a2dc555e6643c66046454446a729e5d80e289c4f3eddf03698ec5fa92339b8c",
+    "observed": "After the sole Coin input, Start1 remains in attract; Fire2 transitions to PLAYER1UP/ROOM1 in both official stock and compiled unchanged baseline",
+    "credit_count_directly_observed": false,
+    "scope": "Narrow start-wiring fault and compiled-baseline boot qualification only; not complete gameplay equivalence"
+  },
+  "local_contract": {
+    "decision": "PASS_LOCAL_INPUT_AND_MRA_CONTRACT",
+    "logical_bits_exhausted": 12,
+    "target_transports": 4,
+    "target_raw_vectors": 16384,
+    "target_with_all_32_dip_combinations": 524288,
+    "legacy_modes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "legacy_exhaustive_transport_vectors": 983040,
+    "legacy_sampled_independent_port_vectors": 40960,
+    "invalid_mode_bytes": "21..255",
+    "invalid_mode_vectors": 3760,
+    "scope": "Extracted production input logic plus actual DIP-AND expressions only; no timing, full-core elaboration, audio, graphics, gameplay, electrical or hardware acceptance is claimed. Joint 64-bit controller space is sampled after exhaustive logical transports."
+  },
+  "hardware_acceptance": {
+    "accepted": true,
+    "root_review": "ROOT-FINAL-ACCEPTANCE.json",
+    "independent_review": "INDEPENDENT-FINAL-HARDWARE-AUDIT.json",
+    "archive_index": "hardware-evidence-final-index.json"
+  },
+  "evidence": [
+    {
+      "path": "core-lab/research/superbond-feasibility-20261024/input-contract-r1/result.json",
+      "bytes": 4786,
+      "sha256": "df717e9c59a541d6aa58cff955dd5cad85364a090fdf6ba55f26b623208dc4af"
+    },
+    {
+      "path": "core-lab/research/superbond-feasibility-20261024/stock-repro-r3/functional-review.json",
+      "bytes": 1754,
+      "sha256": "42fbd2b05c3691ab7fb05172edc17ec6bd7fd161b08518eccbee565375054639"
+    },
+    {
+      "path": "core-lab/research/superbond-feasibility-20261024/compiled-baseline-repro-r1/functional-review.json",
+      "bytes": 1677,
+      "sha256": "2d6b89205da4852938f4bbb433b53aa911a0e9cc679b4f40452f369abdfede46"
+    },
+    {
+      "path": "core-lab/builds/superbond-candidate-q251-r2/qsf-version-metadata-review.json",
+      "bytes": 1463,
+      "sha256": "5ae12492b221a9875b652c2fab2d96660959bccbafe778378597b3e5f6e35a3d"
+    },
+    {
+      "path": "core-lab/builds/superbond-candidate-q251-r2/root-fit-acceptance.json",
+      "bytes": 1752,
+      "sha256": "47a4db879088355eb503f36648980d27a9dbe94e6fc0e828efb21437e7c3a266"
+    },
+    {
+      "path": "core-lab/builds/superbond-candidate-sta-all-corners-r1/ROOT-TIMING-REVIEW.json",
+      "bytes": 2950,
+      "sha256": "2e79abb797f028ab837331cd5f8f9685e734e9d6a8ffff691be4442d5e675af1"
+    },
+    {
+      "path": "core-lab/builds/superbond-candidate-q251-r2/input-manifest.json",
+      "bytes": 86532,
+      "sha256": "cf75076eeed4656cc48e7fdd476c821fde8e8d06cde0b641234897bce5343544"
+    },
+    {
+      "path": "core-lab/builds/superbond-candidate-sta-all-corners-r1/independent-global-coverage-preservation-audit.json",
+      "bytes": 35690,
+      "sha256": "299f604d63f39bc3a87bae8a2f228e03471d00fcafad8e27daeb18d9d40dad63"
+    },
+    {
+      "path": "core-lab/builds/superbond-candidate-sta-all-corners-r1/independent-clock-mpw-audit.json",
+      "bytes": 160351,
+      "sha256": "8e8167a564956471fe21a426393cb0e9c0ae5f32fda788dae89beda9a7847785"
+    }
+  ],
+  "preservation_actions": {
+    "local_draft_only": true,
+    "git_changes_performed": false,
+    "pushes_performed": false,
+    "builds_started": false,
+    "hardware_actions_performed": false
+  },
+  "final_accepted_utc": "2026-10-25T02:21:13.876187+00:00"
+}

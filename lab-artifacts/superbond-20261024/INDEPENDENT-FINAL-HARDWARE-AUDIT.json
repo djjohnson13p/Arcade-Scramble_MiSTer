@@ -1,0 +1,152 @@
+{
+  "schema": "SB45-INDEPENDENT-FINAL-HARDWARE-EVIDENCE-AUDIT-1",
+  "recorded_utc": "2026-10-25T02:15:16.668774+00:00",
+  "reviewer": "independent-local-review",
+  "decision": "FINAL_HARDWARE_EVIDENCE_ACCEPTED_WITH_EXPLICIT_MODALITY_LIMITS",
+  "scope": "Recorded hardware evidence only; no device query, new live test, source edit or timing re-signoff",
+  "candidate_rbf": {
+    "bytes": 3511684,
+    "sha256": "1f5c0768026ef96b8bdad31e1bb4ce490f90aabc458351896f1b9546dbec2400"
+  },
+  "device_ready_sha256": "97ce535e7120a50e8554e33b9cb6893350fffa187a1ed309fa23d3eb384dc8ad",
+  "sessions": {
+    "gameplay-regressions-r1": {
+      "path": "core-lab/research/superbond-feasibility-20261024/candidate-hardware-r1/session-journals/gameplay-regressions-r1.json",
+      "sha256": "9f03cc262e59f9695876d3b65078205fb5a5d5866cca96646acaf498f2176fc9",
+      "closed": true,
+      "managed_terminal_actions": 11,
+      "raw_captures_checked": 8,
+      "all_raw_capture_hashes_match": true,
+      "no_error_or_recovery": true,
+      "device_and_local_bindings_verified_at_close": true,
+      "final_state": {
+        "control": {
+          "active_action": null,
+          "active_input": null,
+          "cleanup_error": "",
+          "epoch": "3081aad1-08ba-43e0-9523-c3ace5cc358d",
+          "mode": "user",
+          "success": true,
+          "transition_in_progress": false
+        },
+        "game": {
+          "core_name": "SB45F001",
+          "core_path": "/media/fat/_Arcade/cores/SB45F001.rbf",
+          "game_path": "/media/fat/_Arcade/_CoreLab/SB45R001.mra",
+          "mister": "status"
+        }
+      },
+      "capture_sha256": {
+        "scramble-boot": "e10c992851979cafa8383954da00702e817a3b596226294395a083787353bc83",
+        "scramble-two-player-start": "fbe0219f5eef75c87126b197059dd667b8ef4a3a02430ab5d11953b2e3f3efc9",
+        "scramble-up": "eb0f863aad68b909a2c04d11198fc59ed66e8f32a488270437b4dc32872851c7",
+        "scramble-down": "3f26719d282e788a6a213c90a8de845a343cef67275059566b9e038eedaaa9d5",
+        "scramble-right": "b51a895c01aa4cfb29b29ad985c5d37cdb407d4e62135deb8a2c6bc213bae284",
+        "scramble-left": "2d761b5640576b044ee312a7a2e425cd388f04fc0a301e54c889eaa5d40140ea",
+        "scramble-shoot": "ca635ce72ba198c8296bb3fdc8ed990a9ca748a3aed14fb224bbd7aee1068d94",
+        "scramble-bomb": "65d97823462d0dc11793592ecee526a90c66f28c3e2a7a87d439e73729bf595a"
+      }
+    },
+    "final-gameplay-osd-r1": {
+      "path": "core-lab/research/superbond-feasibility-20261024/candidate-hardware-r1/session-journals/final-gameplay-osd-r1.json",
+      "sha256": "06a07078118cf50fd41bd0442281a990432efc9895ef81488951d96ef2eabc8f",
+      "closed": true,
+      "managed_terminal_actions": 50,
+      "raw_captures_checked": 24,
+      "all_raw_capture_hashes_match": true,
+      "no_error_or_recovery": true,
+      "device_and_local_bindings_verified_at_close": true,
+      "final_state": {
+        "control": {
+          "active_action": null,
+          "active_input": null,
+          "cleanup_error": "",
+          "epoch": "436442a8-0875-49c4-834f-3c209554f98c",
+          "mode": "user",
+          "success": true,
+          "transition_in_progress": false
+        },
+        "game": {
+          "core_name": "SB45F001",
+          "core_path": "/media/fat/_Arcade/cores/SB45F001.rbf",
+          "game_path": "/media/fat/_Arcade/_CoreLab/SB45F005.mra",
+          "mister": "status"
+        }
+      },
+      "capture_sha256": {
+        "scramble-after-human-reset": "38d7aeb90ecb656c92bcf2a560e1892efed6a2ddcf3050bdf3c579599e96cd6d",
+        "scramble-restarted": "75ee0a301a94e61806670c5b8675a9ee506009f6d48f5dc22a388ebd5614bd6b",
+        "cobra-boot": "c7d5c46de30bc146ac127eec9742959345ee5341a28f212960fe2fa2147937cd",
+        "cobra-two-player-start": "88c182d60e6cc3a1bbcf9e8bf5d74667ed3c64466d0998d61a43b0e2340e0541",
+        "cobra-shoot": "8c8355513062ccb0e1d2d90d150ea7f5469564f454fc012184b2c090c6c4fa40",
+        "cobra-bomb": "8409c41c190b83d00bdb9402f7508b41d7a38db9793b5bc25f358e1fea46fce8",
+        "cobra-after-reset": "2b3b98ac5dbd2505d7798535b43a8936afe7f726baeb0c58725bd844398699b9",
+        "cobra-restarted": "1c966e181d58df2b7ef43feb1f9e89ebd114cd150004c74b37a466cafd9a7683",
+        "bond-final-boot": "fd3b2a14270b1cb5c4e8971e8e6cd2e3c2c939b2b4b98f384f9b5bd4e6d863ea",
+        "bond-normal-2p-start": "79d52f250140a9459e7e2037175646c56f558038b1b936a1d4a59f376953090c",
+        "bond-normal-down-route": "5a96dbb07e3ef791bd918184e632677a748ba3241c99028942a072e64c373c52",
+        "bond-normal-exit-route": "6bb24cd35bb617f46990789b14e5b3e09d4236dc1217f43e51fb54f0744f04af",
+        "bond-combined-after": "43f76981366b74a37c4569757089efe0a6c3a4fcf05d7b86848e58d7dbebbbac",
+        "bond-route-fresh-boot": "263be7023a750ef8232e39788020958ea2c8a2300485ee5452329de45ba096f3",
+        "bond-route-fresh-start": "79d52f250140a9459e7e2037175646c56f558038b1b936a1d4a59f376953090c",
+        "bond-route-at-exit": "c6ba3dd60e15839ec8de1dc1c85bd1955be4e541f0d966afe986461e88be803a",
+        "final-freeplay-boot": "a7f9d74289e955f1fdbf8e3edae837cd70b37ac1a157d5eb771c35baf0af3e25",
+        "final-freeplay-first-start": "1c5eab4a3002ba5c90dd6e1c1be7cfb385b499a2404eb010477060f532a00edd",
+        "bond-after-core-reset": "f2e1d415750c2a7a90ae72bbd02cd0baff021fe28bb15aae3d4050a098d7d05d",
+        "freeplay-no-coin-restart": "2d088037249d9f2578b7f701a35d8ab1cd67e45411dd43571b89a1c2f86eb4d5",
+        "combo-before": "68add6fa18fa33c6d03130a3f8b8907226d9f84d0d1bf9a604211f33357e33b6",
+        "combo-after-zap-hold": "2b98ad0eed3a0a4c3a363f361abb799b79b6aeb0296f4be0149ff66b568e8ef7",
+        "combo-movement-resumed": "2b98ad0eed3a0a4c3a363f361abb799b79b6aeb0296f4be0149ff66b568e8ef7",
+        "human-confirmed-final-gameplay": "c2742c2001719313f81584d3d900160a1df7075698f38195e7d96b5c407bc61a"
+      }
+    }
+  },
+  "freeplay_reset_restart": {
+    "alias": "SB45F005",
+    "named_navigation": {
+      "core": "A.SCRMBL",
+      "target": "Reset",
+      "request_id": "SB45PH-b89794b2080b48cda9eabc40544682d5"
+    },
+    "enter_request_id": "SB45PH-c2be1510302a4a17b3bf5822c2898329",
+    "subsequent_start1_request_id": "SB45PH-55bd364b35684bd3b31c1405dec1557d",
+    "coin_requests_in_entire_f005_leg": 0,
+    "conclusion": "Named Reset navigation, separate Enter, then no-coin Start1 chronology is verified; actual Free Play gameplay is established by human live confirmation, not instruction-page captures.",
+    "human_live_confirmation": "Free game mode active"
+  },
+  "combined_inputs": {
+    "logged_keys": [
+      "leftalt",
+      "leftctrl",
+      "right"
+    ],
+    "terminal_release_verified": true,
+    "human_live_confirmation": "I pressed zap and hold together and zap works and stays in place as I move d pad",
+    "conclusion": "Simultaneous Zap and stationary Hold behavior accepted from the live human observation; terminal replies establish input emission/release only."
+  },
+  "normal_progression": {
+    "alias": "SB45F001",
+    "human_confirmation": "Room exit works",
+    "raw_support": {
+      "bond-combined-after": "ROOM 3",
+      "bond-route-at-exit": "ROOM 2"
+    }
+  },
+  "regressions": {
+    "scramble": "Human confirmed movement, shoot, bomb and audio for both players; human Reset report, followed by captured fresh Coin/Start1 sequence.",
+    "super_cobra": "Human confirmed controls/audio for both players; named Reset navigation and Root Enter followed by attract and fresh Coin/Start1 PLAYER ONE capture."
+  },
+  "demo_sounds_on": {
+    "basis": "Explicit human YES for audible automatic demonstration after normal gameplay; audio is not inferred from screenshots."
+  },
+  "retained_observation_limits": [
+    "F005 freeplay-no-coin-restart and combo-before stills show instructions, not active gameplay.",
+    "combo-after-zap-hold and combo-movement-resumed are identical black captures and do not prove the transient combined effect or movement.",
+    "human-confirmed-final-gameplay.png shows an attract graphic at capture time; its label is not treated as still-frame gameplay proof.",
+    "Live confirmations were supplied by the user through root in this task; no invented observation timestamp or continuous-video claim is added.",
+    "Final state leaves SB45F005 running with User idle; no claim that Menu was restored.",
+    "Reference palette and inherited board-I/O timing limitations remain; this evidence audit does not change timing scope."
+  ],
+  "material_remaining_hardware_evidence_gaps": [],
+  "overall_issue_completion": "Root retains the final overall completion decision; no further hardware test is requested by this audit."
+}
